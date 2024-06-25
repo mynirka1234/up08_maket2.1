@@ -1,0 +1,58 @@
+header {
+    background: pink;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo {
+    height: 100px;
+    width: 100px;
+    background: url(img/preview_image20201021-12242-zg67gk.png);
+    background-size: cover;
+}
+header a {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+a {
+    display: inline-block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+
+img{
+    float: left;
+    width: 230px;
+    margin-right: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.block{
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.block a{
+    float: right;
+    
+}
