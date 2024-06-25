@@ -1,0 +1,65 @@
+header{
+    background: pink;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo{
+    height: 100px;
+    width: 100px;
+    background: url(img/preview_image20201021-12242-zg67gk.png);
+    background-size: cover;
+}
+header h1{
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    list-style-type: none;
+}
+header ul li a{
+    display: block;
+    background: pink;
+    padding: 10px;
+    margin: 30px 10px 0;
+    text-decoration: none;
+    color: black;
+}
+header ul li a:hover{
+    background: rgb(238, 111, 132);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+section article{
+    width: 320px;
+    margin: 5px;
+}
+section article .img{
+    width: 100%;
+    margin: 10px;
+    background-size: cover;
+    background-position-x: -30px;
+}
+.raiting{
+    display: inline-block;
+    font-size: 0;
+}
+.raiting span{
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: aliceblue;
+}
+.raiting > span:before{
+    content: '★';
+}
+.raiting > span.active{
+    color: gold;
+}

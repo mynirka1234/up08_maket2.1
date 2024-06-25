@@ -1,0 +1,48 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+body{
+    background-color: rgb(22, 19, 19);
+    color: white;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article{
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px ;
+}
+article h3 {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Tahoma';
+    margin-left: 63px;
+}
+h2{
+    text-align: left;
+    font-family: 'Tahoma';
+    margin-left: 320px;
+    margin-top: 100px;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0 0 0;
+    font-family: 'Tahoma';
+    margin-left: 320px;
+}
+section p{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Tahoma';
+    margin-left: 45px;
+}
+.m11 {
+    background-color: rgb(58, 50, 50);
+    margin-right: 89px;
+}

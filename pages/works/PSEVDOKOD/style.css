@@ -1,0 +1,115 @@
+.zadanie1 li{
+    color: blue;
+}
+.zadanie2 li{
+    border: 1px solid blue;
+    color: blue;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px
+}
+.zadanie2 li:hover{
+    font-weight: bold;
+}
+.zadanie2{
+    list-style-type: none;
+}
+.zadanie3 li{
+    border: 1px solid black;
+    color: azure;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(73, 77, 77);
+}
+.zadanie3 li:hover{
+    background-color: azure;
+    color: black;
+}
+.zadanie3 li{
+    list-style-type: none;
+}
+.zadanie3 li{
+    font-weight: bold;
+}
+.zadanie4 li{
+    border: 1px solid blue;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: azure;
+    background-color: blue;
+}
+.zadanie4 li:hover{
+    background-color: azure;
+    color: blue;
+}
+.zadanie4 li{
+    list-style-type: none;
+}
+.zadanie4 li{
+   font-weight: bold;
+}
+.zadanie4 li:hover::after{
+    content: url(../../../img/blue.png);
+    padding: 30px;
+}
+.zadanie5 {
+    list-style-type: none;
+}
+.zadanie5 li{
+    display: inline-block;
+    border: 1px solid blue;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.zadanie5 li:hover{
+   color: red;
+}
+.zadanie6{
+    list-style-type: none;
+}
+.zadanie6 li{
+    display: inline-block;
+    border: 1px solid blue;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.zadanie6 li:hover{
+    color: wheat;
+    background-color: black;
+ }
+.zadanie7{
+    list-style-type: none;
+}
+.zadanie7 li{
+    display: inline-block;
+    width: 200px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.zadanie7 li:nth-child(1)::before{
+    content: url(../../../img/1.png);
+    display: block;
+}
+.zadanie7 li:nth-child(2)::before{
+    content: url(../../../img/2.png);
+    display: block;
+}
+.zadanie7 li:nth-child(3)::before{
+    content: url(../../../img/3.png);
+    display: block;
+}
+.zadanie7 li:nth-child(4)::before{
+    content: url(../../../img/4.png);
+    display: block;
+}
+.zadanie7 li:nth-child(5)::before{
+    content: url(../../../img/5.png);
+    display: block;
+}
+.zadanie7 li:hover{
+    color: blue;
+}
