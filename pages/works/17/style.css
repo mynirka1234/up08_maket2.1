@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Oswald;
+  src: url("Oswald.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Oswald;
+  color: #fff;
+  width: 300px;
+  margin: 0 auto;
+  background: gray;
+}
+header {
+  background: rgb(56, 142, 255);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+header h1 {
+  width: 100%;
+  text-align: center;
+}
+header img {
+  width: 30px;
+  height: 25px;
+  padding: 10px;
+  border-left: 1px gray solid;
+}
+main {
+  background: rgb(56, 56, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 60px;
+  gap: 50px;
+}
+.city {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.image {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.image p {
+  display: block;
+  top: 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+}
+footer img {
+  width: 50%;
+}
+.w1,
+.w2,
+.w3,
+.w4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.w1 p,
+.w2 p,
+.w3 p,
+.w4 p {
+  width: 100%;
+}
+.w1 {
+  background: rgb(21, 104, 212);
+}
+.w1 p {
+  background: rgb(12, 98, 211);
+}
+.w2 {
+  background: rgb(45, 122, 223);
+}
+.w2 p {
+  background: rgb(71, 133, 214);
+}
+.w3 {
+  background: rgb(69, 150, 255);
+}
+.w3 p {
+  background: rgb(80, 156, 255);
+}
+.w4 {
+  background: rgb(56, 142, 255);
+}
+.w4 p {
+  background: rgb(34, 130, 255);
+}
