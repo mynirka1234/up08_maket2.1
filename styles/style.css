@@ -1,0 +1,142 @@
+.prew{
+    width: 200px;
+    height: 100px;
+}
+.new1{
+    background: url(../img/af8506b56073f2554d343450efcae80f.jpg);
+    background-size: cover;
+}
+.new2{
+    background: url(../img/CdGW_6OtArU.jpg);
+    background-size: cover;
+}
+.new3{
+    background: url(../img/653img.jpg);
+    background-size: cover;
+}
+.kurs1{
+    background: url(img/10Let_CSO_1C_1024.jpg);
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+}
+.sertif{
+    background: url(img/CdGW_6OtArU.jpg);
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+}
+body{
+    background: rgb(255, 237, 204);
+
+}
+*{
+    font-size: 16px;
+    font-family: Verdana;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+p, div{
+    font-size: 16px;
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background: rgb(84, 222, 247);
+}
+li{
+    padding: 10px;
+}
+.content{
+    display: flex;
+}
+main{
+    width: 70%;
+}
+aside{
+    width: 30%;
+}
+.p1{
+    text-align: right;
+}
+.p2{
+    text-indent: 30px;
+}
+.p3{
+    line-height: 1.4cm;
+}
+.p4{
+    vertical-align: baseline;
+}
+.p5{
+    word-spacing: 1cm;
+}
+.p6{
+ letter-spacing: 2px;
+}
+.p7{
+    white-space: normal;
+}
+.p8{
+    tab-size: 16;
+}
+.p9{
+    text-transform: capitalize;
+}
+.p10{
+    direction: rtl;
+}
+#p11{
+    unicode-bidi: bidi-override;
+}
+#p12{
+   text-decoration: overline; 
+}
+#p13:first-letter{
+        font-size: 2em;
+        margin-right: 2px; 
+        color: #37d4f0;
+        font-weight: bold;
+        text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
+}
+#p14{
+    quotes:'«' '»'; 
+}
+#p15{
+    font-family: "Times New Roman", Georgia, Serif;
+}
+#p16{
+    font-style: italic;
+}
+#p17{
+    font-variant: small-caps;
+}
+#p18{
+    font-weight: 900;
+}
+#p19{
+    font-size: 20px;
+}
+#p20{
+    color: rgba(255,0,0,0.3);
+}
+#p21:first-line{
+    color: #37d4f0;
+}
+
+
+
+
+
+
+
+
+
